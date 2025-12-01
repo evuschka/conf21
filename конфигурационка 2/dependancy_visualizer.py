@@ -14,7 +14,6 @@ class DependencyVisualizer:
         parser = argparse.ArgumentParser(
             description='Инструмент визуализации графа зависимостей для менеджера пакетов',
             formatter_class=argparse.RawDescriptionHelpFormatter,
-            epilog="""
 
         )
         
