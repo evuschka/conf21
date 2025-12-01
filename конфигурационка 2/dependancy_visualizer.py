@@ -15,10 +15,7 @@ class DependencyVisualizer:
             description='Инструмент визуализации графа зависимостей для менеджера пакетов',
             formatter_class=argparse.RawDescriptionHelpFormatter,
             epilog="""
-Примеры использования:
-  %(prog)s --package express --source https://registry.npmjs.org
-  %(prog)s --package myapp --source ./test_repo.json --test-mode
-            """
+
         )
         
         parser.add_argument(
